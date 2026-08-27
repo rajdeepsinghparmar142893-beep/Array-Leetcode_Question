@@ -65,6 +65,7 @@ private:
         if (open == '(' && close == ')') return true;
         if (open == '{' && close == '}') return true;
         if (open == '[' && close == ']') return true;
+        if (open == '<' && close == '>') return true;
         return false;
     }
 
